@@ -5,4 +5,4 @@ if b in a:
 elif(b.isalpha()):
     print("Consonant")
 else:
-    print("Invalid")
+        print("Invalid")
