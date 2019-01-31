@@ -1,6 +1,6 @@
 a=['a','e','i','o','u']
 b=raw_input()
 if b in a:
-    print ("vowel")
+    print ("Invalid")
 else:
-    print("consonent")
+    print("Consonent")
