@@ -1,4 +1,6 @@
-k=int(raw_input())
-m=int(raw_input())
-l=k**m
-print l
+n=input()
+ms=n.split()
+x=int(ms[0])
+y=int(ss[1])
+c=(x**y)
+print(c)
