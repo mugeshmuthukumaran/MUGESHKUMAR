@@ -1,4 +1,4 @@
+k=int(raw_input())
 m=int(raw_input())
-u=int(raw_input())
-g=m**u
-print g
+l=k**m
+print l
