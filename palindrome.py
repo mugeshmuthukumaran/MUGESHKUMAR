@@ -1,0 +1,11 @@
+m=int(raw_input())
+temp=m
+reverse=0
+while(m>0):
+    dig=m%10
+    reverse=reverse*10+dig
+    m=m/10
+if(temp==reverse):
+    print("yes")
+else:
+    print("No")
