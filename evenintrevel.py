@@ -1,5 +1,7 @@
-m= int(raw_input())
-n= int(raw_input())
-for i in range(a+1,b):
-  if(i%2 == 0):
-    print i,
+m=int(raw_input())
+mk=m.split()
+c=int(mk[0])
+d=int(mk[1])
+for i in range(c+1,d):
+	if(i%2==0):
+		print (i,)
