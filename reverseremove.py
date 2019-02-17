@@ -1,3 +1,4 @@
+n=int(raw_input())
 m=(raw_input())
 vowels = ('a', 'e', 'i', 'o', 'u')  
 for x in m: 
