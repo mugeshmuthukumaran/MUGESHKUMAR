@@ -20,4 +20,3 @@ for i in range(0,v-1):
       m+=1
 print(s)
 print(*k)
-© 2019 GitHub, Inc.
