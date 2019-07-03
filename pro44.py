@@ -1,9 +1,5 @@
 #mugi
-n,p,q,r=map(int,raw_input().split())
-l=list(map(int,raw_input().split()))
-g=[]
-for i in range(0,len(l)):
-	for j in range(i,len(l)):
-		for k in range(j,len(l)):
-			g.append(p*l[i]+q*l[j]+r*l[k])
-print(max(g))
+h,m,d,s=map(int,input().split())
+n=[int(i) for i in input().split()]
+a=[m*n[i]+d*n[j]+s*n[k] for i in range(len(n)) for j in range(len(n)) for k in range(len(n)) if i<=j<=k]
+print(max(a))
