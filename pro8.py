@@ -1,3 +1,4 @@
+#mugi
 import math
 a,z=map(int,input().split())
 c=[]
